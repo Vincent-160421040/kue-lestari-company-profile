@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Birthday Cakes",
+    "image": "/Image/birthday_cake.webp",
+    "description": "Customizable birthday cakes perfect for any age. Choose your favorite flavors and decorations.",
+    "price": "Starting from Rp 200k",
+    "gradientFrom": "from-cream-200",
+    "gradientTo": "to-cream-300",
+    "whatsappMessage": "Birthday Cake"
+  },
+  {
+    "id": 2,
+    "name": "Wedding Cakes",
+    "image": "/Image/wedding_cake.webp",
+    "description": "Elegant wedding cakes designed to make your special day unforgettable. Multiple tiers available.",
+    "price": "Starting from Rp 1.5jt",
+    "gradientFrom": "from-cream-300",
+    "gradientTo": "to-cream-400",
+    "whatsappMessage": "Wedding Cake"
+  },
+  {
+    "id": 3,
+    "name": "Cupcakes",
+    "image": "/Image/cupcake.webp",
+    "description": "Delightful cupcakes in various flavors. Perfect for parties, events, or a sweet treat anytime.",
+    "price": "Rp 25k/piece",
+    "gradientFrom": "from-cream-200",
+    "gradientTo": "to-cream-300",
+    "whatsappMessage": "Cupcakes"
+  },
+  {
+    "id": 4,
+    "name": "Anniversary Cakes",
+    "image": "/Image/anniversary_cake.webp",
+    "description": "Celebrate your love with a beautifully decorated anniversary cake. Romantic designs available.",
+    "price": "Starting from Rp 300k",
+    "gradientFrom": "from-cream-300",
+    "gradientTo": "to-cream-400",
+    "whatsappMessage": "Anniversary Cake"
+  },
+  {
+    "id": 5,
+    "name": "Custom Cakes",
+    "image": "/Image/custom_cake.webp",
+    "description": "Have a special design in mind? We create custom cakes tailored to your vision and preferences.",
+    "price": "Price on request",
+    "gradientFrom": "from-cream-200",
+    "gradientTo": "to-cream-300",
+    "whatsappMessage": "Custom Cake"
+  }
+]
+

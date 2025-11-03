@@ -1,0 +1,38 @@
+<nav class="fixed top-0 w-full z-50 bg-cream-50/95 backdrop-blur-sm shadow-md">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <img src="/Image/logo.webp" alt="Logo" class="h-10 md:h-12 w-auto" />
+      </div>
+      
+      <!-- Navigation Menu -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Home</a>
+        <a href="#about" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">About</a>
+        <a href="#products" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Products</a>
+        <a href="#location" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Location</a>
+        <a href="#contact" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Contact</a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-button" class="md:hidden text-cream-900 hover:text-cream-800">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4">
+      <div class="flex flex-col space-y-3">
+        <a href="#home" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Home</a>
+        <a href="#about" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">About</a>
+        <a href="#products" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Products</a>
+        <a href="#location" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Location</a>
+        <a href="#contact" class="text-cream-800 hover:text-cream-900 transition-colors font-medium">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
