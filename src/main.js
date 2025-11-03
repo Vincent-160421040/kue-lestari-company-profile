@@ -15,7 +15,7 @@ async function loadComponents() {
   
   for (const component of components) {
     try {
-      const response = await fetch(`/src/components/${component}.html`);
+      const response = await fetch(`/components/${component}.html`);
       const componentHTML = await response.text();
       html += componentHTML;
     } catch (error) {
@@ -35,7 +35,7 @@ async function loadComponents() {
 // Load products from JSON and render them
 async function loadProducts() {
   try {
-    const response = await fetch('/src/data/products.json');
+    const response = await fetch('/data/products.json');
     const products = await response.json();
     const track = document.getElementById('productsTrack');
     
